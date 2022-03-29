@@ -1,0 +1,16 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.layout {
+		@apply mx-auto p-6 max-w-6xl;
+	}
+	.h1 {
+		@apply text-gray-900 text-2xl font-bold;
+	}
+	.p {
+		@apply text-gray-600;
+	}
+}

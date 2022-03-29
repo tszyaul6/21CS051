@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.home_btn {
+		@apply flex w-max transform items-center rounded-full border-2 border-indigo-300 px-4 py-2 font-bold text-gray-500 shadow-md hover:-translate-y-0.5 hover:text-indigo-500;
+	}
+}
