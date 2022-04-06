@@ -72,7 +72,7 @@ const emailResolver = {
 
 			return order;
 		} catch (err) {
-			cosnole.log(err);
+			console.log(err);
 		}
 	}
 };

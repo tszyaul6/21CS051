@@ -118,7 +118,7 @@ function BigModal(props) {
 						</div>
 						<div className="flex flex-auto p-2">
 							<p className="text-lg text-gray-700 ">
-								Estimated Arrivat Time:
+								Estimated Arrival Time:
 							</p>
 							<p className="ml-2 text-lg text-gray-500 ">
 								{eta || "Not yet available."}

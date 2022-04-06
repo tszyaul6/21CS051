@@ -12,7 +12,7 @@ function Home() {
 				</h1>
 				<p className="p">
 					TY Express is a web-based solution providing fast and simple
-					serevices like sending, receiving or tracking packages. Try
+					services like sending, receiving or tracking packages. Try
 					it now!
 				</p>
 				<Link className="home_btn" to="/orders">

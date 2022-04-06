@@ -106,6 +106,9 @@ const driverResolver = {
 		}
 	},
 	optOrders: async (args, req) => {
+		// console.log(`The algorithm is running...`);
+		// let startTime = performance.now();
+
 		if (!req.isAuth) throw new Error("Unauthenticated");
 
 		try {
@@ -191,6 +194,10 @@ const driverResolver = {
 				);
 				finalOptOrders.push(order);
 			}
+
+			// console.log(`The algorithm ends.`);
+			// let endTime = performance.now();
+			// console.log(`It takes: ${(endTime - startTime) / 1000} seconds`);
 
 			return finalOptOrders;
 		} catch (err) {
